@@ -1,0 +1,37 @@
+# Oracle Cloud Infrastructure Authentication
+tenancy_ocid = "ocid1.tenancy.<REPLACE_ME>"
+user_ocid = "ocid1.user.oc1..<REPLACE_ME>"
+fingerprint= "<REPLACE_ME>"
+private_key_path = "<REPLACE_ME>.pem"
+
+# Region
+region = "<REPLACE_ME>" # example: eu-frankfurt-1
+
+# Compartment
+compartment_ocid = "ocid1.compartment.<REPLACE_ME>"
+# Keys Configration
+ssh_authorized_keys_path = "<REPLACE_ME>.pub"
+ssh_private_key_path = "<REPLACE_ME>"
+
+admin_username = "admin"
+admin_password = "MyPassw0rd!"
+
+node_shape = "VM.Standard.E2.1"
+
+mds_instance_name = "MySQLServer"
+iot_instance_name = "IoTServer"
+
+#existing_vcn_ocid = ""
+#existing_internet_gateway_ocid = ""
+#existing_nat_gateway_ocid = ""
+#existing_public_route_table_ocid = ""
+#existing_private_route_table_ocid = ""
+#existing_public_security_list_ocid = ""
+#existing_public_security_list_http_ocid = ""
+#existing_private_security_list_ocid = ""
+#existing_public_subnet_ocid = ""
+#existing_private_subnet_ocid = ""
+#existing_mds_instance_ocid = ""
+
+use_mosquitto = false
+
